@@ -1,0 +1,14 @@
+{
+  "fallback": "divinetowers:long_fall_tunnel_cap",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "divinetowers:long_fall_tunnel",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

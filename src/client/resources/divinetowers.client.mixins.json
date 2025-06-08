@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.divinetowers.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "divinetowers",
+	"version": "1.0.0",
+	"name": "Divine Towers",
+	"description": "Adds two item-focused structures.",
+	"authors": [
+		"Ohno17"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/divinetowers/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.divinetowers.DivineTowers"
+		],
+		"client": [
+			"com.divinetowers.DivineTowersClient"
+		]
+	},
+	"mixins": [
+		"divinetowers.mixins.json",
+		{
+			"config": "divinetowers.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

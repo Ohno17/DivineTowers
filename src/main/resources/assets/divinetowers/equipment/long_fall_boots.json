@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "divinetowers:long_fall_boots"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "divinetowers:long_fall_boots"
+      }
+    ]
+  }
+}

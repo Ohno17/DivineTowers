@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.divinetowers.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"DamageMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
