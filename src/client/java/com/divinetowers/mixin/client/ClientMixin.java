@@ -10,5 +10,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class ClientMixin {
 	@Inject(at = @At("HEAD"), method = "run")
 	private void init(CallbackInfo info) {
+		// Called on client init before run
 	}
 }

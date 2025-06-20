@@ -25,6 +25,7 @@ public class DamageMixin {
 		if (source.isIn(DamageTypeTags.IS_FALL) && player.getEquippedStack(EquipmentSlot.FEET).isOf(ModItems.LONG_FALL_BOOTS)) {
 			info.setReturnValue(false);
 			
+			// Create FX
 			world.playSound(null, player.getX(), player.getY(), player.getZ(), SoundEvents.ITEM_MACE_SMASH_GROUND_HEAVY, SoundCategory.PLAYERS);
 			world.spawnParticles(ParticleTypes.ENCHANTED_HIT, player.getX(), player.getY() + 1, player.getZ(), 25, 0, 0, 0, 0.25);
 
